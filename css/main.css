@@ -92,3 +92,13 @@ span{
 	align-items: center;
 	justify-content: space-around;
 }
+
+.skills{
+   background-color: aqua;
+}
+
+.content{
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 40px;
+}
