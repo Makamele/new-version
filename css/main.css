@@ -12,20 +12,30 @@
 	background-position: center;
 }
 
-nav img {
+.nav-wrapper{
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+nav img {
+	/* display: flex;
 	align-items: top;
 	
 	padding-top: 10px;
-	padding-left: 1%;
+	padding-left: 1%; */
 	
 }
 
 .logo{
-	color: white;
-	font-size: 35px;
-	letter-spacing: 1px;
+	/* color: white; */
+	/* font-size: 35px; */
+	/* letter-spacing: 1px; */
 	cursor: pointer;
+	width: 70px;
+    height: 70px;
+	margin: 10px 10px;
 }
 nav ul li{
 	list-style-type: none;
