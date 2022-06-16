@@ -7,9 +7,32 @@
 .Hero{
 	height: 100vh;
 	width: 100%;
-	background-image: url(../Images/Me.png);
+	/* background-image: url(../Images/Me.png); */
 	background-size: cover;
 	background-position: center;
+	background-color: rgb(41, 41, 41);
+	
+}
+
+.bio-wrapper{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	/* background-color: rgb(199, 198, 197); */
+	height: 90%;
+	margin-right: 50px;
+}
+
+.image{
+	background-position-x: center;
+    border-radius: 100%;
+	border: 10px solid rgb(85, 90, 90);
+	width: 60%;
+	height: 60%;
+	background-image: url(../Images/Me.png);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .nav-wrapper{
@@ -56,8 +79,8 @@ nav ul li a:hover{
 }
 
 .bio{
-    margin-left: 8% ;
-    margin-top: 15%;
+    margin-left: 50px ;
+    /*margin-top: 15%; */
 }
 .bio h1{
     font-size: 35px;
